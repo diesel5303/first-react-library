@@ -1,0 +1,33 @@
+{
+  "name": "@diesel5303/first-react-library",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/diesel5303"
+  },
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "author": "Zachary Dunn",
+  "license": "MIT",
+  "description": "A personalized UI Library",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.16.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "tslib": "^2.6.2"
+  }
+}
